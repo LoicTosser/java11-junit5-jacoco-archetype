@@ -65,7 +65,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.mowercompany.lawnmower.LawnmowerApplication</mainClass>
+              <mainClass>${package}.Application</mainClass>
             </manifest>
           </archive>
         </configuration>

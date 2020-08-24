@@ -14,6 +14,6 @@ class ApplicationTest implements WithAssertions {
 
     @Test
     void shouldWork() {
-        LawnmowerApplication.main(new String[]{});
+        Application.main(new String[]{});
     }
 }
