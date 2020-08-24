@@ -1,0 +1,32 @@
+= Java 11 / JUnit 5 / Jacoco Quick Start Maven Archetype
+
+Sources of a Maven archetype that can be used to bootstrap Java 11 maven projects with Junit5, Assertj and Jacoco dependencies.
+
+== How to use it
+
+=== Install in local repository
+To use this archetype, you first have to clone it and install it in your maven local repository:
+
+[source]
+----
+mvn install
+----
+
+=== Create project from archetype
+
+Once installed in your local repository, you can bootstrap maven projects:
+
+[source,shell]
+----
+ mvn archetype:generate -DarchetypeGroupId=com.osslot.archetypes
+                        -DarchetypeArtifactId=java11-junit5-jacoco
+                        -DarchetypeVersion=1.0.0-SNAPSHOT
+----
+
+== References
+
+* https://maven.apache.org[Maven]
+* https://maven.apache.org/guides/introduction/introduction-to-archetypes.html[Maven Archetype]
+* https://junit.org/junit5/[JUnit 5]
+* https://www.eclemma.org/jacoco/trunk/doc/maven.html[Jacoco maven plugin]
+* https://joel-costigliola.github.io/assertj/[Asserj]
